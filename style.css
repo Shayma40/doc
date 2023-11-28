@@ -1,0 +1,629 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto_Regular;
+}
+
+.header{
+    position:absolute;
+    top: 0;
+    width: 100vw;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index:1000;
+}
+
+.logo img{
+    width: 268px;
+    height: 33px;
+    vertical-align: middle;
+    border: 0;
+}
+
+.navbar a{
+    font-size: 20px;
+    font-weight: 400;
+    gap: 1.5rem;
+    color: #ababab;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color:#00b39b ;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    color: #00b39b;
+}
+
+.section img{
+    width: 40px;
+    height: 40px;
+    aspect-ratio: auto 40 / 40;
+}
+
+#p{
+    font-size: 2.29rem;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+
+.towparagrphs{
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.p1{
+    color: #747474;
+    padding-right: 30px;
+}
+
+.p2{
+    color: #747474;
+    padding-left: 20px;
+}
+
+.Forsection{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    gap:2.5rem;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    max-width: 1015px;
+    padding: 0 20px;
+    padding: 1.75em 1.25em 0;
+    position: relative;
+}
+
+
+.For1{
+    background-color: #00ccb1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+#select1 select{
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+.For2{
+    background-color: #3d83df;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+#select2 select{
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+.For3{
+    background-color: #1b2734;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    justify-content: space-between;
+    transition: .3s;
+}
+
+#select3{
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+#select3 select{
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.For1 #For1title,
+.For2 #For2title,
+.For3 #For3title{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 400;
+    margin: 0.3em 0;
+}
+
+.For1:hover{
+    transform: scale(1.05);
+}
+
+.For2:hover{
+    transform: scale(1.05);
+}
+
+.For3:hover{
+    transform: scale(1.05);
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section2 div{
+    display: flex;
+    width: 75%;
+}
+
+#section2title{
+    font-size: 1.625rem;
+    margin-bottom: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+#sectionlogos{
+    display: flex;
+    gap:1.5rem;
+    flex-wrap: wrap;
+}
+
+#sectionlogos img{
+    width: 7.5rem;
+    object-fit: contain;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+}
+
+.section3title{
+    padding-top: 60px;
+}
+
+.section3title h2{
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+}
+
+.h2, h2{
+    font-size: 30px;
+    color: #00b39b;
+}
+
+.h1, .h2, .h3, h1, h2, h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+h2{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section3title p{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+}
+
+p{
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img{
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.section3logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-around;
+    align-items: normal;
+    margin-right: 50px;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.section3logos div{
+    height: 500px;
+    width: 250px;
+}
+
+.first2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: normal;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.second2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: normal;
+    align-items: normal;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#leader, #patients, #appointments, #doctors{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+#leader img, #patients img, #appointments img, #doctors img{
+    width: 25px;
+    height: auto;
+}
+
+img{
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.section3logos h3{
+    font-size: 1.846em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.section3logos p{
+    font-size: 0.8125em;
+    color: #747474;
+    font-weight: 400;
+}
+
+p{
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+
+div{
+    display: block;
+}
+
+.section4 h3{
+    font-size: 2.1428em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+
+h3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section4 p{
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    color: #747474;
+    font-weight: 400;
+    text-align: center;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.section5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section5cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover, .card7:hover, .card8:hover, .card9:hover {
+    box-shadow: 0 6px 10px  rgba(3, 3, 3, 0.1);
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img, .card7 img, .card8 img, .card9 img {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    text-align: center;
+}
+
+.section5cards button:hover {
+    background-color: #3d83df;
+}
+
+.section5{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.section5cards .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 2px 2px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.button p{
+    color: #747474;
+    font-weight: bold;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: none;
+    padding: 0 10px;
+    background: #3d83df;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    padding: 2px 15px;
+    transition: background-color .3s;
+}
+
+.section6 h1 {
+    font-size: 2.1428571429em;
+    color: #747474;
+    margin-bottom: 0.75em;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+
+.section6 button {
+    margin-left: 120px;
+    background-color: #3d83df;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-size: 11px;
+    width: 50%;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
